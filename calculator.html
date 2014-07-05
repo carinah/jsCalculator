@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Carina's Magical Calculator</title>
+  <link rel="stylesheet" type="text/css" href="calculator.css"> 
+</head>
+<body>
+  <div id="main_body">
+    <div class="display"><input type="text" readonly size="18" id="screen"></div>
+    <div id="button_area">
+
+    <p> <button type="button" class="button_clear" value="C" onclick='clr("")'>Clr</button></p>
+
+    <p><button type="button" class="button_black" value="7" onclick='calc("7")'>7</button>
+    <button type="button" class="button_black" value="8" onclick='calc("8")'>8</button>
+    <button type="button" class="button_black" value="9" onclick='calc("9")'>9</button>
+    <button type="button" class="button_black" value="/" onclick='calc("/")'>/</button></p>
+
+    <p><button type="button" class="button_black" value="4" onclick='calc("4")'>4</button>
+    <button type="button" class="button_black" value="5" onclick='calc("5")'>5</button>
+    <button type="button" class="button_black" value="6" onclick='calc("6")'>6</button>
+    <button type="button" class="button_black" value="*" onclick='calc("*")'>*</button></p>
+
+    <p><button type="button" class="button_black" value="1" onclick='calc("1")'>1</button>
+    <button type="button" class="button_black" value="2" onclick='calc("2")'>2</button>
+    <button type="button" class="button_black" value="3" onclick='calc("3")'>3</button>
+    <button type="button" class="button_black"value="-" onclick='calc("-")'>-</button></p>
+
+    <p><button type="button" class="button_black" value="0" onclick='calc("0")'>0</button>
+    <button type="button" class="button_black" value="." onclick='calc(".")'>.</button>
+    <button type="button" class="button_black" value="-" onclick='calc("+")'>+</button>
+    <button type="button" class="button_black" value="=" onclick='e()'>=</button></p>
+    </div>
+
+    </div>
+  </div>
+  <script src="calculator.js"></script>
+</body>
+</html>
